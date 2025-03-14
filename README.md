@@ -1,4 +1,5 @@
-# PeakRunner
+# <img width="381" alt="Logo" src="https://github.com/user-attachments/assets/4b022441-4da7-41bc-9e2a-08629cc86dbe" />
+
 
 ## Logo Design:
 ### Draft Version 1: -
