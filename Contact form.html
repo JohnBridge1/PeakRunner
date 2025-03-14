@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link href="Contact form.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="Contact-title">
+      <h1>Say hello</h1>
+      <h2>we are always ready to serve you!</h2>
+    </div>
+
+    <div class="contact-form">
+      <form id="contact-form" method="post" action="contact-form handler.php">
+        <input
+          name="name"
+          type="text"
+          class="form-control"
+          placeholder="Name"
+          required
+        />
+        <br />
+        <input
+          name="email"
+          type="text"
+          class="form-control"
+          placeholder="Email"
+          required
+        />
+        <br />
+
+        <textarea
+          name="message"
+          class="form-control"
+          placeholder="Message"
+          rows="3"
+          required
+        ></textarea
+        ><br />
+
+        <input type="submit" class="form-control submit" value="SEND MESSAGE" />
+      </form>
+    </div>
+  </body>
+</html>
